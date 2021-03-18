@@ -1,10 +1,10 @@
 import './App.css';
-import Clicker from "./components/Clicker/Clicker"
+import DieRoll from "./components/DiceGame/DieRoll/DieRoll"
 
 function App() {
   return (
     <div className="App">
-      <Clicker />
+      <DieRoll />
     </div>
   );
 }

@@ -1,0 +1,20 @@
+.DieRoll {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+
+.DieRoll button {
+    align-self: center;
+    background-color: chocolate;
+    width: 15em;
+    border: 0;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin-top: 3em;
+}
+
+.DieRoll button:hover {
+    background-color: coral;
+    cursor: pointer;
+}
